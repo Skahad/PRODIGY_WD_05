@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logo-transparent-svg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <h1>Weather App</h1>
+    <div class="input-container">
+        <input type="text" id="location-input" placeholder="Enter location">
+        <button onclick="fetchWeatherByInput()">Get Weather</button>
+        <button onclick="fetchWeatherByLocation()">Use My Location</button>
+    </div>
+    <div id="weather-info"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
